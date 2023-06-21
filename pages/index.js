@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-
+import Image from "next/image";
 
 import Profile from "../components/Profile";
 import Projects from "../components/Porjects";
@@ -73,7 +73,8 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web1}
+                src={"/web1.png"}
+                alt="Picture of the author"
               />
               <p>Texto</p>
             </div>
@@ -83,7 +84,8 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web2}
+                src={"/web2.png"}
+                alt="Picture of the author"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -92,7 +94,8 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web3}
+                src={"/web3.png"}
+                alt="Picture of the author"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -101,7 +104,8 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web4}
+                src={"/web4.png"}
+                alt="Picture of the author"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -110,7 +114,8 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web5}
+                src={"/web5.png"}
+                alt="Picture of the author"
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -119,7 +124,8 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web6}
+                src={"/web6.png"}
+                alt="Picture of the author"
               />
             </div>
           </div>

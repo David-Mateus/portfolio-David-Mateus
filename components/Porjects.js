@@ -41,7 +41,7 @@ export default function Projects() {
               <p className="text-white dark:text-gray-900 py-1">SQL</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-900  dark:bg-white flex-1">
-              <Image src={"/design.png"} width={100} height={100} alt="ee"/>
+              <Image src={"/consulting.png"} width={100} height={100} alt="ee"/>
               <h3 className="text-lg font-medium pt-8 pb-2 text-white dark:text-gray-900 ">Consulting</h3>
               <p className="py-2 text-white dark:text-gray-900">
                 lorem ipsum dolor sit amet, consectetur adipiscing elit
