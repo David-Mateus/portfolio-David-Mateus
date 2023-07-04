@@ -23,10 +23,10 @@ export default function Experience() {
             the scope and timeline as the projects needs evolved.
           </p>
           <div class="grid grid-cols-4 gap-4">
-            <Card link="/" photo = "/project.png"  title = "LocateMe" />
-            <Card photo = "/project.png"  title = "LocateMe" />
-            <Card photo = "/project.png"  title = "LocateMe" />
-            <Card photo = "/project.png"  title = "LocateMe" />
+            <Card link="https://practices-lia-stage.herokuapp.com/p08%20-%20conducao-de-calor/" photo = "/project.png"  title = "" />
+            <Card link="https://practices-lia-stage.herokuapp.com/p17-observacao-de-Laminas-de-Tipos-de-Musculo/index.html" photo = "/project.png"  title = "" />
+            <Card link="https://practices-lia-stage.herokuapp.com/p03-estufa-v2/index.html" photo = "/project.png"  title = "" />
+            <Card link="https://practices-lia-stage.herokuapp.com/p13-diferencial-de-gram/index.html" photo = "/project.png"  title = "" />
           </div>
         </div>
         <div>
@@ -34,7 +34,7 @@ export default function Experience() {
             Projects
           </h3>
           <div class="grid grid-cols-4 gap-4">
-            <Card link="https://locateme.tech/" photo = "/locateme.png"  title = "LocateMe" />
+            <Card link="https://locateme.tech/"   photo = "/locateme.png"  title = "LocateMe" />
             <Card link="https://github.com/David-Mateus/App-WaterMe" photo = "/water.png" title = "Water" />
             <Card link="https://github.com/David-Mateus/GolPE-App" photo = "/golPe.png" title = "GolPe" />
             <Card link="https://david-mateus.github.io/Dev.finance/" photo = "/devfinance.png" title = "Dev.finance"/>
